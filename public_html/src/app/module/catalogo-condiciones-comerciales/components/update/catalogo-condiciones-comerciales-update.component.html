@@ -1,0 +1,6 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="CatalogoCondicionesComerciales"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Nombre"></app-input-template>
+        <app-input-template [form]="form" [data]="DescripcionCondicion"></app-input-template>
+        <app-input-template [form]="form" [data]="Requerida"></app-input-template>
+</app-create-template>

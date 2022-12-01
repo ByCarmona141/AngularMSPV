@@ -1,0 +1,11 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Prospectacion"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Cliente"></app-input-template>
+        <app-input-template [form]="form" [data]="FechaYHora"></app-input-template>
+        <app-input-template [form]="form" [data]="TipoDeServicio"></app-input-template>
+        <app-input-template [form]="form" [data]="DescripcionDelServicio"></app-input-template>
+        <app-input-template [form]="form" [data]="Usuario"></app-input-template>
+        <app-input-template [form]="form" [data]="Empleado"></app-input-template>
+        <app-input-template [form]="form" [data]="Status"></app-input-template>
+        <app-input-template [form]="form" [data]="Canalizado"></app-input-template>
+</app-create-template>

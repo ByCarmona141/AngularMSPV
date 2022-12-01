@@ -1,0 +1,8 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="CatalogoDeRequerimientos"
+                     (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="TipoDeServicio"></app-input-template>
+      <app-input-template [form]="form" [data]="Requerimiento"></app-input-template>
+      <app-input-template [form]="form" [data]="Orden"></app-input-template>
+      <app-input-template [form]="form" [data]="Requerido"></app-input-template>
+      <app-input-template [form]="form" [data]="Catalogo"></app-input-template>
+</app-create-template>

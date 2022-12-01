@@ -1,0 +1,8 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Persona"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="NombreORazonSocial"></app-input-template>
+        <app-input-template [form]="form" [data]="Telefono"></app-input-template>
+        <app-input-template [form]="form" [data]="CorreoElectronico"></app-input-template>
+        <app-input-template [form]="form" [data]="TipoDePersona"></app-input-template>
+        <app-input-template [form]="form" [data]="DatosFiscales"></app-input-template>
+</app-create-template>

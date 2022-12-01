@@ -1,0 +1,7 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="DocumentoCliente"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Cliente"></app-input-template>
+        <app-input-template [form]="form" [data]="Documento"></app-input-template>
+        <app-input-template [form]="form" [data]="Archivo"></app-input-template>
+        <app-input-template [form]="form" [data]="Comentarios"></app-input-template>
+</app-create-template>

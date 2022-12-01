@@ -1,0 +1,11 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Cliente"
+                     (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Nombre"></app-input-template>
+      <app-input-template [form]="form" [data]="NoCliente"></app-input-template>
+      <app-input-template [form]="form" [data]="Empresa"></app-input-template>
+      <app-input-template [form]="form" [data]="FechaTupla"></app-input-template>
+      <app-input-template [form]="form" [data]="UsuarioRegistro"></app-input-template>
+      <app-input-template [form]="form" [data]="Status"></app-input-template>
+      <app-input-template [form]="form" [data]="PaginaWeb"></app-input-template>
+      <app-input-template [form]="form" [data]="LimiteDeCredito"></app-input-template>
+</app-create-template>

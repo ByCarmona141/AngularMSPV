@@ -1,0 +1,10 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="ClientePersona"
+                     (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Cliente"></app-input-template>
+      <app-input-template [form]="form" [data]="Persona"></app-input-template>
+      <app-input-template [form]="form" [data]="Relacion"></app-input-template>
+      <app-input-template [form]="form" [data]="Titulo"></app-input-template>
+      <app-input-template [form]="form" [data]="Telefono"></app-input-template>
+      <app-input-template [form]="form" [data]="Telefono2"></app-input-template>
+      <app-input-template [form]="form" [data]="CorreoElectronico"></app-input-template>
+</app-create-template>

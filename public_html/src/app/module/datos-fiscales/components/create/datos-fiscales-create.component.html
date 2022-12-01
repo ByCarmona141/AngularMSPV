@@ -1,0 +1,10 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="DatosFiscales"
+                     (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="NombreORazonSocial"></app-input-template>
+      <app-input-template [form]="form" [data]="RFC"></app-input-template>
+      <app-input-template [form]="form" [data]="RegimenFiscal"></app-input-template>
+      <app-input-template [form]="form" [data]="Domicilio"></app-input-template>
+      <app-input-template [form]="form" [data]="FechaTupla"></app-input-template>
+      <app-input-template [form]="form" [data]="Origen"></app-input-template>
+      <app-input-template [form]="form" [data]="Tupla"></app-input-template>
+</app-create-template>

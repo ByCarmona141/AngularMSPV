@@ -1,0 +1,6 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="TipoDeServicio"
+                     (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Nombre"></app-input-template>
+      <app-input-template [form]="form" [data]="Descripcion"></app-input-template>
+      <app-input-template [form]="form" [data]="Activo"></app-input-template>
+</app-create-template>

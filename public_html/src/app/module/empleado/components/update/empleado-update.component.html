@@ -1,0 +1,5 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Empleado"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Clave"></app-input-template>
+        <app-input-template [form]="form" [data]="Persona"></app-input-template>
+</app-create-template>

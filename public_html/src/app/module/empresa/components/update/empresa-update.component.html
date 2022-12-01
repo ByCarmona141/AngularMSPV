@@ -1,0 +1,5 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Empresa"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="NombreComercial"></app-input-template>
+        <app-input-template [form]="form" [data]="DatosFiscales"></app-input-template>
+</app-create-template>

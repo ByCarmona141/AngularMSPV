@@ -1,0 +1,22 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="Domicilio"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="TipoDeVialidad"></app-input-template>
+        <app-input-template [form]="form" [data]="Vialidad"></app-input-template>
+        <app-input-template [form]="form" [data]="TipoDeAsentamiento"></app-input-template>
+        <app-input-template [form]="form" [data]="Asentamiento"></app-input-template>
+        <app-input-template [form]="form" [data]="NumeroExterior"></app-input-template>
+        <app-input-template [form]="form" [data]="NumeroInterior"></app-input-template>
+        <app-input-template [form]="form" [data]="Pais"></app-input-template>
+        <app-input-template [form]="form" [data]="EntidadFederativa"></app-input-template>
+        <app-input-template [form]="form" [data]="Municipio"></app-input-template>
+        <app-input-template [form]="form" [data]="Localidad"></app-input-template>
+        <app-input-template [form]="form" [data]="CodigoPostal"></app-input-template>
+        <app-input-template [form]="form" [data]="Latitud"></app-input-template>
+        <app-input-template [form]="form" [data]="Longitud"></app-input-template>
+        <app-input-template [form]="form" [data]="GooglePin"></app-input-template>
+        <app-input-template [form]="form" [data]="Visible"></app-input-template>
+        <app-input-template [form]="form" [data]="Actual"></app-input-template>
+        <app-input-template [form]="form" [data]="FechaTupla"></app-input-template>
+        <app-input-template [form]="form" [data]="Origen"></app-input-template>
+        <app-input-template [form]="form" [data]="Tupla"></app-input-template>
+</app-create-template>

@@ -1,0 +1,11 @@
+<app-create-template [loading]="loading" [register]="register" [form]="form" [modal]="modal" title="RequerimientoCliente"
+                     [create]="false" [id]="id" (submit)="submit($event)" (cancel)="return()">
+  <app-input-template [form]="form" [data]="Cliente"></app-input-template>
+        <app-input-template [form]="form" [data]="Fecha"></app-input-template>
+        <app-input-template [form]="form" [data]="Status"></app-input-template>
+        <app-input-template [form]="form" [data]="Valor"></app-input-template>
+        <app-input-template [form]="form" [data]="Solicitante"></app-input-template>
+        <app-input-template [form]="form" [data]="Requerimiento"></app-input-template>
+        <app-input-template [form]="form" [data]="UsuarioRegistro"></app-input-template>
+        <app-input-template [form]="form" [data]="EmpleadoElaboro"></app-input-template>
+</app-create-template>
